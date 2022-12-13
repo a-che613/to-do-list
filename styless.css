@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+header {
+  padding: 10px 20px;
+  background-color: #1f2833;
+}
+
+header nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav .logo {
+  font-size: 25px;
+  color: white;
+}
+
+header nav .logo span {
+  font-size: 35px;
+  color: purple;
+}
+
+header nav button {
+  font-family: 'Playfair Display', serif;
+  padding: 3px;
+  color: purple;
+  font-weight: 500;
+  /* background-color: white; */
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+main .sec1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 20px;
+}
+
+main .sec1 .input {
+  display: flex;
+  flex-direction: row;
+  gap: 0;
+  width: 100%;
+}
+
+.bx-book-add {
+  font-size: 30px;
+}
+
+.bx-menu {
+  font-size: 35px;
+  color: white;
+}
+
+main .sec1 .input input {
+  width: 100%;
+  height: 40px;
+  border: 1.5px solid purple;
+  border-top-left-radius:7px;
+  border-bottom-left-radius:7px;
+  padding: 0 15px;
+  font-size: 16px;
+  outline-color: rgba(128, 0, 128, 0.552);
+}
+
+main .sec1 .input input::placeholder {
+  text-align: center;
+}
+
+main .sec2 {
+  /* border: 0.5px solid green; */
+  padding: 20px;
+}
+
+
+main .sec2 .p2 {
+  display: flex;
+  flex-direction: column;
+}
+
+main .sec2 .ddd {
+  /* border: 0.5px solid red; */
+  padding: 10px 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 5px;
+  align-items: center;
+}
+
+main .sec2 .p2 .ddd .check {
+  width: 20px;
+  height: 20px;
+}
+
+main .sec2 .p2 .ddd .value {
+  /* border: 0.5px solid purple; */
+  width: 100%;
+  padding: 4px;
+  font-size: 20px;
+  border: 0.5px solid rgba(156, 156, 156, 0.201);
+  outline-color: rgba(156, 156, 156, 0.115);
+  font-family: 'Marck Script', cursive;
+  border-radius: 5px;
+
+}
+
+main .sec2 .p2 .ddd .value:focus {
+  /* outline: none; */
+}
+
+main .sec2 .ddd button {
+  border: 0.5px solid black;
+  padding: 2px 5px;
+  color: red;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  main {
+    /* border: solid yellow; */
+    width: 80%;
+    margin: 10px auto;
+  }
+  header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+  }
+  
+}
+
+@media screen and (min-width: 1024px) {
+  main {
+    /* border: solid yellow; */
+    width: 50%;
+    margin: 10px auto;
+  }
+
+  header {
+    padding: 10px 20px;
+    background-color: #1f2833;
+  }
+
+  header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+  }
+
+  header nav .logo {
+    font-size: 35px;
+    color: white;
+  }
+  
+  header nav .logo span {
+    font-size: 45px;
+    color: purple;
+  }
+
+  header nav button {
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    padding: 3px;
+    color: purple;
+    font-weight: 500;
+    /* background-color: white; */
+  }
+  
+}
+
+
+
