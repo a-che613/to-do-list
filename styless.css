@@ -10,15 +10,20 @@
 }
 
 header {
-  padding: 10px 20px;
+  /* padding: 10px 20px; */
   background-color: #1f2833;
+  position: fixed;
+  width: 100%;
+  
 }
 
 header nav {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  width: 100%;
+  gap: 100px;
 }
 
 header nav .logo {
@@ -50,6 +55,7 @@ main .sec1 {
   align-items: center;
   justify-content: center;
   padding: 20px 20px;
+  margin-top: 80px;
 }
 
 main .sec1 .input {
@@ -121,10 +127,6 @@ main .sec2 .p2 .ddd .value {
 
 }
 
-main .sec2 .p2 .ddd .value:focus {
-  /* outline: none; */
-}
-
 main .sec2 .ddd button {
   border: 0.5px solid black;
   padding: 2px 5px;
@@ -155,11 +157,6 @@ main .sec2 .ddd button {
     /* border: solid yellow; */
     width: 50%;
     margin: 10px auto;
-  }
-
-  header {
-    padding: 10px 20px;
-    background-color: #1f2833;
   }
 
   header nav {
